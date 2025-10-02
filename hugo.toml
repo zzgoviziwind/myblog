@@ -1,6 +1,6 @@
 baseURL = 'https://47.98.234.78/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'My New Hugo Site Test'
 theme = "ananke"
 
 # 输出类型
