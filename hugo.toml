@@ -1,4 +1,8 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://47.98.234.78/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = "ananke"
+
+# 输出类型
+[outputs]
+home = ["HTML", "RSS", "JSON"]
