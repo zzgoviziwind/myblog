@@ -1,7 +1,28 @@
 baseURL = 'https://47.98.234.78/'
 languageCode = 'en-us'
-title = 'My New Hugo Site Test'
-theme = "ananke"
+title = 'Endless Learing, Endless Light'
+theme = "PaperMod"
+
+[params]
+  env = "production" # 或者 "development"
+  description = "A simple Hugo blog powered by PaperMod"
+  defaultTheme = "auto" # 自动暗/亮模式
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+
+  [params.homeInfoParams]
+  Title = "Welcome to My Blog"
+  Content = "Thoughts, stories, and ideas."
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 10
 
 # 输出类型
 [outputs]

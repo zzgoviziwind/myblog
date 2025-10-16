@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on Endless Learing, Endless Light</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on Endless Learing, Endless Light</description>
+    <generator>Hugo -- 0.150.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 02 Oct 2025 14:44:08 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>First Post</title>
+      <link>http://localhost:1313/posts/first-post/</link>
+      <pubDate>Thu, 02 Oct 2025 14:44:08 +0800</pubDate>
+      <guid>http://localhost:1313/posts/first-post/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;💡 PaperMod 支持 TOC（目录）、代码高亮、数学公式（KaTeX）、表格等，Markdown 写作体验非常完整。&lt;/p&gt;&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;p&gt;### ✅ 2️⃣ 推荐使用的编辑器&lt;/p&gt;
+&lt;p&gt;| 编辑器 | 优点 |&lt;/p&gt;
+&lt;p&gt;|&amp;mdash;&amp;mdash;&amp;ndash;|&amp;mdash;&amp;mdash;|&lt;/p&gt;
+&lt;p&gt;| **VS Code** | 支持 Markdown 预览、YAML FrontMatter 高亮、Git 集成；推荐安装插件：*Markdown All in One*、*Front Matter CMS* |&lt;/p&gt;
+&lt;p&gt;| **Typora** | 极简实时预览写作体验 |&lt;/p&gt;
+&lt;p&gt;| **Obsidian** | 如果你有大量笔记，可用它组织 Markdown 知识库，写完后复制或同步到 Hugo 博客目录 |&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;## ⚙️ 三、Hugo 常用操作命令&lt;/p&gt;
+&lt;p&gt;| 功能 | 命令 |&lt;/p&gt;
+&lt;p&gt;|&amp;mdash;&amp;mdash;|&amp;mdash;&amp;mdash;|&lt;/p&gt;
+&lt;p&gt;| 启动本地服务器 | &lt;code&gt;hugo server -D&lt;/code&gt; |&lt;/p&gt;
+&lt;p&gt;| 构建网站（生成静态文件） | &lt;code&gt;hugo&lt;/code&gt; |&lt;/p&gt;
+&lt;p&gt;| 新建文章 | &lt;code&gt;hugo new posts/xxx.md&lt;/code&gt; |&lt;/p&gt;
+&lt;p&gt;| 指定主题运行 | &lt;code&gt;hugo server -t PaperMod -D&lt;/code&gt; |&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
