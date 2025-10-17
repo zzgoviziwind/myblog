@@ -13,23 +13,71 @@
       <link>http://localhost:1313/posts/first-post/</link>
       <pubDate>Thu, 02 Oct 2025 14:44:08 +0800</pubDate>
       <guid>http://localhost:1313/posts/first-post/</guid>
-      <description>&lt;blockquote&gt;
+      <description>&lt;p&gt;吆西www&lt;/p&gt;
+&lt;blockquote&gt;
 &lt;p&gt;💡 PaperMod 支持 TOC（目录）、代码高亮、数学公式（KaTeX）、表格等，Markdown 写作体验非常完整。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;hr&gt;
-&lt;p&gt;### ✅ 2️⃣ 推荐使用的编辑器&lt;/p&gt;
-&lt;p&gt;| 编辑器 | 优点 |&lt;/p&gt;
-&lt;p&gt;|&amp;mdash;&amp;mdash;&amp;ndash;|&amp;mdash;&amp;mdash;|&lt;/p&gt;
-&lt;p&gt;| **VS Code** | 支持 Markdown 预览、YAML FrontMatter 高亮、Git 集成；推荐安装插件：*Markdown All in One*、*Front Matter CMS* |&lt;/p&gt;
-&lt;p&gt;| **Typora** | 极简实时预览写作体验 |&lt;/p&gt;
-&lt;p&gt;| **Obsidian** | 如果你有大量笔记，可用它组织 Markdown 知识库，写完后复制或同步到 Hugo 博客目录 |&lt;/p&gt;
+&lt;h3 id=&#34;-2-推荐使用的编辑器&#34;&gt;✅ 2️⃣ 推荐使用的编辑器&lt;/h3&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;编辑器&lt;/th&gt;
+          &lt;th&gt;优点&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;VS Code&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;支持 Markdown 预览、YAML FrontMatter 高亮、Git 集成；推荐安装插件：&lt;em&gt;Markdown All in One&lt;/em&gt;、&lt;em&gt;Front Matter CMS&lt;/em&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Typora&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;极简实时预览写作体验&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Obsidian&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;如果你有大量笔记，可用它组织 Markdown 知识库，写完后复制或同步到 Hugo 博客目录&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
 &lt;hr&gt;
-&lt;p&gt;## ⚙️ 三、Hugo 常用操作命令&lt;/p&gt;
-&lt;p&gt;| 功能 | 命令 |&lt;/p&gt;
-&lt;p&gt;|&amp;mdash;&amp;mdash;|&amp;mdash;&amp;mdash;|&lt;/p&gt;
-&lt;p&gt;| 启动本地服务器 | &lt;code&gt;hugo server -D&lt;/code&gt; |&lt;/p&gt;
-&lt;p&gt;| 构建网站（生成静态文件） | &lt;code&gt;hugo&lt;/code&gt; |&lt;/p&gt;
-&lt;p&gt;| 新建文章 | &lt;code&gt;hugo new posts/xxx.md&lt;/code&gt; |&lt;/p&gt;
-&lt;p&gt;| 指定主题运行 | &lt;code&gt;hugo server -t PaperMod -D&lt;/code&gt; |&lt;/p&gt;</description>
+&lt;h2 id=&#34;-三hugo-常用操作命令&#34;&gt;⚙️ 三、Hugo 常用操作命令&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;功能&lt;/th&gt;
+          &lt;th&gt;命令&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;启动本地服务器&lt;/td&gt;
+          &lt;td&gt;&lt;code&gt;hugo server -D&lt;/code&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;构建网站（生成静态文件）&lt;/td&gt;
+          &lt;td&gt;&lt;code&gt;hugo&lt;/code&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;新建文章&lt;/td&gt;
+          &lt;td&gt;&lt;code&gt;hugo new posts/xxx.md&lt;/code&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;指定主题运行&lt;/td&gt;
+          &lt;td&gt;&lt;code&gt;hugo server -t PaperMod -D&lt;/code&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;清理 public 目录&lt;/td&gt;
+          &lt;td&gt;&lt;code&gt;rm -rf public&lt;/code&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;blockquote&gt;
+&lt;p&gt;⚠️ 注意：Hugo 默认不会覆盖 public 下的旧文件，发布前可清理干净。&lt;/p&gt;&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-四papermod-主题使用技巧&#34;&gt;🧱 四、PaperMod 主题使用技巧&lt;/h2&gt;
+&lt;h3 id=&#34;1-首页信息配置&#34;&gt;1️⃣ 首页信息配置&lt;/h3&gt;
+&lt;p&gt;在 &lt;code&gt;config.toml&lt;/code&gt; 中添加：&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
