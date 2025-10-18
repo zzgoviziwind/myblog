@@ -2,6 +2,8 @@
 date = '2025-10-02T14:44:08+08:00'
 draft = false
 title = 'First Post'
+categories = ["technology"]
+tags = ["Hugo", "博客"]
 +++
 
 吆西www

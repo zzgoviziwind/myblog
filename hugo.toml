@@ -5,6 +5,9 @@ theme = "PaperMod"
 
 [params]
   env = "production" # 或者 "development"
+  author = "侯曾曾 (Douglas Hou)"
+  github = "zzgoviziwind"
+  email = "douglashou614@gmail.com"
   description = "A simple Hugo blog powered by PaperMod"
   defaultTheme = "auto" # 自动暗/亮模式
   ShowReadingTime = true
@@ -13,16 +16,32 @@ theme = "PaperMod"
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
 
-  [params.homeInfoParams]
-  Title = "Welcome to My Blog"
-  Content = "Thoughts, stories, and ideas."
+[params.profileMode]
+  enabled = true
+  title = "你好, 欢迎来到侯曾曾的博客!"
+  subtitle = "记录生活与技术"
+  imageUrl = "/image/Avatar.jpeg"
+  imageTitle = "我的头像"
 
 [menu]
   [[menu.main]]
-    identifier = "posts"
-    name = "Posts"
-    url = "/posts/"
+    identifier = "technology"
+    name = "Technology"
+    url = "/categories/technology/"
     weight = 10
+  [[menu.main]]
+    identifier = "thought"
+    name = "Thought"
+    url = "/categories/thought/"
+    weight = 20
+  [[menu.main]]
+    identifier = "experience"
+    name = "Experience"
+    url = "/categories/experience/"
+    weight = 30
+[markup]
+  [markup.highlight]
+    noClasses = false
 
 # 输出类型
 [outputs]
